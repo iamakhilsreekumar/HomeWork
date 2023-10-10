@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algo", "Algo\Algo.csproj", "{F824B8C9-983F-413B-BABA-F565BF1836DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokenAPI", "BrokenAPI\BrokenAPI.csproj", "{B89104FC-E3A0-4703-959D-2E4C53EE0B87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokenAPI.Test", "BrokenAPI.Test\BrokenAPI.Test.csproj", "{4C440DCE-9195-469F-ABDD-13184A33B538}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F824B8C9-983F-413B-BABA-F565BF1836DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F824B8C9-983F-413B-BABA-F565BF1836DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F824B8C9-983F-413B-BABA-F565BF1836DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F824B8C9-983F-413B-BABA-F565BF1836DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B89104FC-E3A0-4703-959D-2E4C53EE0B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89104FC-E3A0-4703-959D-2E4C53EE0B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B89104FC-E3A0-4703-959D-2E4C53EE0B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89104FC-E3A0-4703-959D-2E4C53EE0B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C440DCE-9195-469F-ABDD-13184A33B538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C440DCE-9195-469F-ABDD-13184A33B538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C440DCE-9195-469F-ABDD-13184A33B538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C440DCE-9195-469F-ABDD-13184A33B538}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE332B4F-BB4D-424B-A384-E86EC0B7C95E}
+	EndGlobalSection
+EndGlobal

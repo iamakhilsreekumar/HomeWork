@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home page";
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<div class="text-center">
+    <h4>Enter characters for <small>searching the names from the API</small> </h4>
+    @Html.TextBox("Input for API")
+    <button id="super"> Submit Text</button>
+</div>
+<script>
+    $(document).ready(function () {
+        debugger;
+        $("#super").click(function (e) {
+            e.preventDefault();
+            debugger
+            $.ajax({
+                type: "post",
+                url: "GetPeople"+"?input=" + $("#Input_for_API").val(),
+                success: function (result) {
+                    if (result != null) {
+                        alert(result);
+                    }
+                    else {
+                        alert("error");
+                    }
+                },
+                error: function () {
+                    alert("error");
+                }
+            })
+        });
+    });
+</script>
